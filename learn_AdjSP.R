@@ -3,7 +3,7 @@
 ##       Author: *************** December, 12, 2021 ***************
 ## ----------------------------------------------------------------------
 
-`eemb` <- function(dataset,alpha,test = "zf", cluster = NULL,
+`learn.adjsp` <- function(dataset,alpha,test = "zf", cluster = NULL,
                    max.sx = ncol(dataset), debug = FALSE){
   
   data.info = bnlearn:::check.data(dataset, allow.missing = TRUE)
